@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kalkulator walut</title>
+</head>
+<body>
+    <h1>Kalkulator walut</h1>
+    <form action="convert">
+        <fieldset>
+            <label for="money">Kwota</label>
+            <input type="number" step= "0.01" name="value" placeholder="123.45" min="0" id="money">
+        </fieldset>
+        <fieldset>
+            <p>Przelicznik</p>
+            <input type="radio" name="exchange" value="EURPLN" id="EURPLN">
+            <label for="EURPLN">EUR -> PLN</label>
+            <br>
+            <input type="radio" name="exchange" value="PLNEUR" id="PLNEUR">
+            <label for="PLNEUR">PLN -> EUR</label>
+        </fieldset>
+        <input type="submit" value="Przelicz">
+    </form>
+</body>
+</html>

@@ -1,0 +1,39 @@
+* {
+   font-family: "Arial Narrow";
+}
+
+h1, p {
+    text-align: center
+}
+
+#frame {
+    display: block;
+    width: 50%;
+    height: 300px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+#numbers {
+    display: block;
+    width: 480px;
+    margin: 0 auto;
+    border-width: thin;
+    border-color: transparent;
+}
+
+fieldset > input {
+    border-color: black;
+    border-width: thin;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#submitButton {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: large;
+}
