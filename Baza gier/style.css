@@ -1,0 +1,39 @@
+.dynamic {
+    color: red;
+}
+.dynamic2 {
+    color: forestgreen;
+}
+h1 {
+    text-align: center
+}
+#table1 > table{
+    width: 100%;
+    font-family: monospace;
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+#table1 > table > thead {
+    font: bold;
+    font-size: large
+}
+
+#table1 > thead, th, td {
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+form {
+    margin: 20;
+}
+
+input {
+    width: 100%;
+}
+
+#add-game-button{
+    text-align: center;
+}
